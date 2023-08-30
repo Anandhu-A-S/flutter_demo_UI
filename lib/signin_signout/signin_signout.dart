@@ -106,7 +106,8 @@ class LoginSigninPage extends StatelessWidget {
                                         }
                                       },
                                       style: ElevatedButton.styleFrom(
-                                        primary: colorBlue, // Background color
+                                        backgroundColor:
+                                            colorBlue, // Background color
                                       ),
                                       child: const Text('SIGNIN'),
                                     ),
@@ -129,7 +130,8 @@ class LoginSigninPage extends StatelessWidget {
                                                         RegistrationPage()));
                                       },
                                       style: ElevatedButton.styleFrom(
-                                        primary: colorBlue, // Background color
+                                        backgroundColor:
+                                            colorBlue, // Background color
                                       ),
                                       child: const Text('SIGNUP'),
                                     ),
@@ -151,7 +153,7 @@ class LoginSigninPage extends StatelessWidget {
                                         fontSize: 15,
                                         fontWeight: FontWeight.w700,
                                       ),
-                                      primary: Colors.black),
+                                      backgroundColor: Colors.black),
                                   child: const Text(
                                     'FORGOT PASSWORD',
                                     style: TextStyle(
